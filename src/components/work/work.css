@@ -50,11 +50,21 @@
 
 @media screen and (max-width: 864px) {
   .tuteDude__container {
-    padding: 3% 12%;
+   padding-right: 7%;
+   padding-left: 9.5%;
+    margin-top: -5%;
   }
   .tuteDude__work-item {
-    width: 90%;
-    margin-bottom: 6rem;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 
+  .tuteDude__work-item_text h3,
+  .tuteDude__work-item_text p {
+    font-size: 14px;
+  }
+
+  .tuteDude__container-hdw {
+    margin-bottom: -18%;
+  }
 }
