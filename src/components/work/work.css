@@ -5,12 +5,11 @@
 
 
 .tuteDude__container div h2 {
-  font-weight: 600;
+  font-weight:600;
   font-size: 24px;
   line-height: 36px;
-color: #800080;
+  color: #800080;
 }
-
 .tuteDude__work-item {
   display: flex;
   justify-content: center;
