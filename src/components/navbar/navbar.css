@@ -1,0 +1,124 @@
+.tuteDude__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem 6rem;
+  background: #fff;
+  width: 100%;
+}
+
+.tuteDude__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tuteDude__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.tuteDude__navbar-links_logo img {
+  width:160px;
+  height: 63px;
+}
+
+.tuteDude__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position:absolute;
+  right: 300px;
+} 
+
+.tuteDude__navbar-sign p span {
+  margin: 0 .3rem;
+}
+
+.tuteDude__navbar-sign p .arrow {
+  width: 15px;
+}
+
+.tuteDude__navbar-links_container p,
+.tuteDude__navbar-sign p,
+.tuteDude__navbar-menu_container p {
+  color: #800080;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.5%;
+  text-transform: capitalize;
+
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.tuteDude__navbar-sign p {
+  display: flex;
+}
+
+.tuteDude__navbar-links_container p {
+  color: rgba(128, 0, 128, 0.25);
+}
+
+
+.tuteDude__navbar-sign button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 25px;
+  gap: 10px;
+
+  
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  background: #800080;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.tuteDude__navbar-sign button .arrowWhite {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 890px) {
+  .tuteDude__navbar-sign button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .tuteDude__navbar {
+    padding: 1rem ;
+  }
+
+  .tuteDude__navbar-sign p {
+    display: none;
+  }
+
+  .tuteDude__navbar-links_container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tuteDude__navbar {
+    padding: 1rem 2rem;
+  }
+  .tuteDude__navbar-sign button {
+    width: 165px;
+    height: 48px;
+  }
+
+  .tuteDude__navbar-links_logo {
+    margin-left: -32px;
+    padding-left: 0;
+  }
+}

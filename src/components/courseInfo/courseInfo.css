@@ -1,0 +1,19 @@
+.tuteDude__course {
+  background: #fff;
+  padding-left: 11.688rem;
+  padding-top: 1.875rem;
+}
+
+.tuteDude__course-info p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+}
+
+@media screen and (max-width: 900px) {
+  .tuteDude__course {
+    padding-left: 36px;
+  }
+}

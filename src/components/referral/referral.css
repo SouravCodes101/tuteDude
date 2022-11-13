@@ -1,0 +1,142 @@
+.tuteDude__referral {
+  padding-left: 11.688rem;
+  padding-top: 1.875rem;
+  padding-bottom: 2rem;
+  display: flex;
+   background: #FFFFFF;
+}
+
+.tuteDude__referral-earnings{
+  padding: .2rem;
+  display: flex ; 
+  background: #FFFFFF;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-right:4rem;
+  padding-bottom:  2rem; 
+  width: 486px;
+}
+
+.tuteDude__referral-earnings-items { 
+  width: 486px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  align-items:  center;
+}
+
+.tuteDude__referral-earnings-item {
+  padding: 1em ; 
+  margin: 0 8px;
+} 
+
+.tuteDude__referral-earnings-item-heading{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tuteDude__referral-earnings-item-value {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tuteDude__referral-button {
+  display: flex;
+  justify-content: center;
+}
+
+.tuteDude__referral-button button {
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 10px;
+  width: 180px;
+  height: 40px;
+  background: #800080;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+
+.tuteDude__referral-code-1 p{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+  margin-bottom: .3rem;
+}
+
+.tuteDude__referral-code-2 {
+  padding:16px 16px 16px 48px;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(90deg, rgba(255, 134, 76, 1) 0%, rgba(128, 0, 128, 1) 100%) border-box;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  width: 358px;
+  height: 60px;
+}
+
+.tuteDude__referral-code-2 p {
+  font-family: var(--font-family);  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: #800080;
+  text-align: center;
+}
+
+@media screen and (max-width: 864px) {
+  .tuteDude__referral { 
+    padding: 0;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+  } 
+  .tuteDude__referral-earnings {
+    width:358px ; 
+    padding: 0;
+    margin: 30px 35px ; 
+    
+  } 
+  .tuteDude__referral-earnings-items {
+    margin-right: 10px;
+    justify-content: space-between; 
+  }
+
+  .tuteDude__referral-code-1 p {
+    font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  }
+
+  .tuteDude__referral-code-2 p {
+    color: #000;
+  }
+
+  .tuteDude__referral-code {
+    margin: 30px;
+  }
+}
