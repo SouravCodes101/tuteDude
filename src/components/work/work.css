@@ -48,7 +48,7 @@
   margin-right: 47.44px;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 500px) {
   .tuteDude__container {
    padding-right: 7%;
    padding-left: 7%;
@@ -70,5 +70,12 @@
 
   .tuteDude__container-hdw {
     margin-bottom: -18%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .tuteDude__work-item {
+    width: 100%;
+    margin-bottom: 45%;
   }
 }
