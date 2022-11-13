@@ -52,5 +52,7 @@
   .tuteDude__container {
     padding: 3% 12%;
   }
-
+  .tuteDude__work-item {
+    width: 100%;
+  }
 }
